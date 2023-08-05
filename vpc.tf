@@ -17,7 +17,7 @@ resource "aws_internet_gateway" "tigw" {
   }
 }
 #subnet
-#PUb subnet 1
+#PUb subnet 1 test
 resource "aws_subnet" "pubsub1" {
   vpc_id            = aws_vpc.myvpc.id
   cidr_block        = var.subpub1
